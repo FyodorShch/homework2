@@ -49,3 +49,6 @@ __*Choose all necessary settings*__
 * __git merge origin__ — *Слияние удалённого репозитория с локальным с указанием имени удалённого репозитория*
 * __git push -u origin new_branch__ — *Передать новую ветку в удалённый репозиторий*
 * __git rebase branch_name__ — *Использование перебазирования*
+
+# Conflict
+I want to create conflict, so I made it, but something wrong
