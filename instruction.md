@@ -19,3 +19,19 @@ __*Choose all necessary settings*__
 * __git add .__ — *add all files to the Prepared Files area*
 * __git status__ — *View the status of the desired repository*
 * __git log__ — *View changes made to the repository*
+
+# Commands for interaction with branches
+
+* __git branch new_branch_name__ — *Создать новую ветку с именем new_branch_name*
+* __git checkout -b new_branch_name__ — *Создать ветку с именем new_branch_name и перейти на неё*
+* __git branch__ — *просмотреть список веток*
+* __git branch -a__ — *Просмотреть список удалённых веток*
+* __git branch -d existing_branch_name__ —*Удалить ветку с именем existing_branch_name*
+* __git branch -D existing_branch_name__ — *Принудительно удалить ветку независимо от текущего статуса и без предупреждений*
+* __git push origin --delete existing_branch_name__ — *Удалить ветку в удалённом репозитории*
+* __git merge existing_branch_name__ — *Выполнить слияние двух веток*
+* __git merge --no-ff existing_branch_name__ — *Выполнить коммит слияния*
+* __git log --graph --oneline --decorate__ — *Посмотреть историю коммитов в виде графика для текущей ветви*
+* __git log --all --graph --oneline --decorate__ — *Просмотреть историю коммитов в виде графика для всех веток*
+* __git merge --abort__ — *Прекратить слияние*
+* __git reset__ — *Восстановить конфликтующие файлы до стабильного состояния.*
